@@ -1,0 +1,397 @@
+header{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+}
+
+nav{
+  color:black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background: white;
+  font-family: 'Urbanist', sans-serif;
+  
+
+}
+
+
+.Logo {
+  width:5%;
+  align-items:flex-start;
+
+}
+
+
+
+
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin-right: -13px;
+  
+}
+
+.nav-links li{
+  list-style-type: none;
+
+}
+  
+
+
+.nav-links a{
+  color:rgb(0, 0, 0) ;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.LoginAndRegister{
+  display: flex;
+  
+}
+
+.Login a{
+  background-color: white;
+  color: black;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 3px;
+  text-decoration: none;
+  width: 160px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 30px;
+  border:rgb(0, 0, 0);
+  border-style: groove;
+  
+  cursor: pointer;
+  
+}
+
+
+
+.Register a{
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  width: 160px;
+  margin-right: 0px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100%;
+  font-family: "Open Sans";
+  padding-top: 10px; /* Add padding to separate footer content from edge */
+  color: #fff;
+  z-index: 1; /* Make sure it's above other content */
+}
+
+  .footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  }
+  /* .footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+  }
+  .footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  }
+  .socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+  }
+  .socials li{
+  margin: 0 10px;
+  }
+  .socials a{
+  text-decoration: none;
+  color: #fff;
+  }
+  .socials a i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+  
+  }
+  .socials a:hover i{
+  color: aqua;
+  } */
+  
+  .footer-bottom{
+  background: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+  }
+  
+  .footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+  }
+
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  margin-top: 8vh;
+}
+
+.login-form {
+  background: white;
+  padding: 100px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding-left: 130px;
+  padding-right: 130px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-bottom: 39px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.login-form input {
+  width: 130%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.register-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.register-link a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+/* Your existing CSS code (same as in login.html) */
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  margin-top: 8vh;
+}
+
+.register-form {
+  background: white;
+  padding: 100px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding-left: 130px;
+  padding-right: 130px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  text-align: center;
+}
+
+.register-form h2 {
+  margin-bottom: 39px;
+}
+
+.register-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.register-form input {
+  width: 130%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.register-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-link a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  margin-top: 8vh;
+}
+
+.post-form {
+  background: white;
+  padding: 180px;
+  border-radius: 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding-left: 130px;
+  padding-right: 130px;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  text-align: center;
+}
+
+.post-form h2 {
+  margin-bottom: 39px;
+}
+
+.post-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.post-form input {
+  width: 130%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+.post-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input#author {
+  border-radius: 20px;
+  width: 450px;
+}
+
+input#quoteText {
+  height: 100px;
+  width: 500px;
+  vertical-align: top;
+}
+
+.top-left-logo {
+  position: absolute;
+  top: -20px; /* Adjust this value as needed */
+  left: -5px; /* Adjust this value as needed */
+  max-width: 120px; /* Adjust the width as needed */
+  z-index: 2; /* Place it above other content in the form */
+}
+
+
+
+.bottom-right-logo {
+  position: absolute;
+  bottom: -20px; /* Adjust this value as needed */
+  right: -5px; /* Adjust this value as needed */
+  max-width: 120px; /* Adjust the width as needed */
+  z-index: 2; /* Place it above other content in the form */
+}
+
+/* Home.css */
+
+/* ...Header styles... */
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: calc(100vh - 100px); /* Adjust as needed to prevent overlap with the footer */
+}
+
+.quote-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 120px; /* Adjust the top margin as needed */
+  max-height: calc(100vh - 200px); /* Adjust as needed to limit card container height */
+  overflow-y: auto; /* Add a vertical scrollbar when content overflows */
+}
